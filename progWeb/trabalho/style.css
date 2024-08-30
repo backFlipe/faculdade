@@ -1,0 +1,267 @@
+/* DEFINIÇÃO DE DIVS */
+div{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.div1{
+    font-size: 80px;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 40%;
+    height: 18%;
+    text-align:center;
+}
+
+.div2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 28px;
+    text-align: center;
+}
+
+.div3{
+    top: 110%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+}
+
+.div4{
+    top: 120%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: left;
+}
+
+.div5{
+    top: 150%;
+    left: 12.2%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+}
+
+.div6{
+    top: 127%;
+    left: 11.55%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 28px;
+    text-align: center;
+}
+
+.div7{
+    top: 175%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+}
+
+.div8{
+    top: 185%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+}
+
+.div9{
+    top: 193%;
+    left: 14.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 45px;
+    text-align: left;
+}
+
+.div10{
+    top: 199%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 28px;
+    text-align: left;
+}
+
+.div11{
+    top: 220%;
+    left: 9.7%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+}
+
+.div12{
+    top: 230%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: left;
+}
+
+.div13{
+    top: 266%;
+    left: 6.7%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: left;
+}
+
+.div14{
+    top: 320%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+}
+
+.div15{
+    top: 326%;
+    left: 13.4%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.div16{
+    top: 330%;
+    left: 2.7%;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+}
+
+.div17{
+    top: 340%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 24px;
+}
+
+.div18{
+    top: 308%;
+    left: 10.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: left;
+    font-size: 28px;
+}
+
+.div19{
+    top: 326%;
+    right: 0px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 24px;
+}
+
+/* DEFINIÇÃO ESTILO BACKGROUND */
+.background{
+    background: #1E1E22;
+}
+
+/* CORES UTILIZADAS */
+.color1{
+    color: #F0ECEB;
+}
+
+.color2{
+    /* faz com que os textos que usem essa cor fiquem com cor gradiente*/
+    background: -webkit-linear-gradient(right, #F0ECEB, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color3{
+    /* textos brancos com underline branco */
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline white;
+}
+
+/* FORMATAÇÃO DE TEXTOS */
+p{
+    /* define o tamanho, fonte e deixa em negrito todos os textos da marcação <p>,</p> */
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+ul{
+    /* define o tamanho, cor e coloca uma underline em todos os elemento de uma lista <ul> */
+    font-size: 20px;
+    color: #F0ECEB;
+    text-decoration: underline;
+}
+
+/* CONFIGURAÇÕES DAS IMAGENS UTILIZADAS NO HTML
+ajuste de posição, tamanho e opacidade */
+.imagem1{
+    position: relative;
+    top: 1200px;
+    width: 33%;
+    height: 336px;
+    opacity: 70%;
+}
+
+.imagem2{
+    position: relative;
+    top: 1200px;
+    width: 33%;
+    height: 336px;
+    opacity: 70%;
+}
+
+.imagem3{
+    position: relative;
+    top: 1200px;
+    width: 33%;
+    height: 336px;
+    opacity: 70%;
+}
+
+/* CONFIGURAÇÕES DO FORMULÁRIO */
+form div + div {
+    /* define o espaçamento entre os elementos do formulário*/
+    margin-top: 1em;
+}
+
+input{
+    /* define o tamanho da fonte padrão que será digitada dentro da label em todos os formulários do html */
+    font-size: 17px;
+}
+
+/* posicinamento do imput alinhado com as devidas labels */
+.input1{
+    position: relative;
+    top: 20px;
+    left: -68px;
+}
+
+.input2{
+    position: relative;
+    top: 20px;
+    left: -80px;
+}
+
+.input3{
+    position: relative;
+    top: 60px;
+    left: -220px;
+    height: 5em;
+    width: 300px;
+}

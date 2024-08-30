@@ -1,0 +1,36 @@
+p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p, h1, h2{
+    text-align: center;
+}
+
+.cor1{
+    background-color: rgb(255, 50, 50);
+}
+
+.cor2{
+    background-color: #9807F2;
+}
+
+.cor3{
+    background-color: rgb(78, 78, 255);
+}
+
+.espaco{
+    padding: 20px;
+}
+
+.borda{
+    border: solid 4px;
+    border-radius: 50px 50px;
+}
+
+h1, h2{
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}

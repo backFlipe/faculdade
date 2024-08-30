@@ -1,0 +1,19 @@
+a.estilo1:link{color: red;}
+a.estilo1:visited{color: blue;}
+a.estilo1:hover{color: yellow;}
+
+a.estilo2:link{color: red;}
+a.estilo2:visited{color: blue;}
+a.estilo2:hover{font-size: 175%;}
+
+a.estilo3:link{color: red;}
+a.estilo3:visited{color: blue;}
+a.estilo3:hover{background-color: greenyellow;}
+
+a.estilo4:link{color: red;}
+a.estilo4:visited{color: blue;}
+a.estilo4:hover{font-family: 'Courier New', Courier, monospace;}
+
+a.estilo5:link{color: red; text-decoration: none;}
+a.estilo5:visited{color: blue; text-decoration: none;}
+a.estilo5:hover{text-decoration: underline;}

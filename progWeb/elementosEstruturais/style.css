@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    border: 1px solid #45fa;
+    padding: 15px;
+}
+
+nav{
+    width: 25%;
+    float: right;
+    padding: 15px;
+    border: 1px solid #54ff;
+}
+
+section{
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid #45ba;
+}
+

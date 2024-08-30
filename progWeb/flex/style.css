@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+}
+
+.box{
+    color: black;
+    border: 4px solid #000;
+    font-size: 2.6rem;
+    padding: 10px;
+}
+
+.box1{background: #CFE3D5;}
+.box2{background: #4F8E64;}
+.box3{background: #89B698;}
+.box4{background: #92B885;}
+.box5{background: #5F8E4F;}
+.box6{background: #D4E3CF;}
+.box7{background: #366327;}
+.box8{background: #18390D;}
+.box9{background: #103603;}
